@@ -12,10 +12,10 @@ body{
     margin: 0px 100px;
     justify-content: space-between;
 }
-.header2{
-    display: flex;
-    gap: 30px;
-}
+.header1 p:hover{
+    color: rgb(0, 0, 0);
+    transition: 0.3s ease-in-out;
+}   
 .header3{
     display: flex;
     gap: 30px;
@@ -35,13 +35,16 @@ body{
     height: 334px;
     border: 0px solid none;
 }
-.box1 button{
+button{
     background-color: #458FF6;
     border-radius: 55px;
     width: 197.75px;
     height: 56px;
     color: #fffF;
     border: none;
+}
+button:active{
+    background-color: red;
 }
 .a{
 text-align: center;
@@ -63,7 +66,6 @@ text-align: center;
     border-radius: 20px;
 }
 .b{
-    background-color:#f8f9fcf2;
     border: 2px solid #468FF6;
     border-radius: 55px;
     width: 200px;
@@ -86,7 +88,7 @@ text-align: center;
     background-color: white;
     border: 1px solid white;
     width: 380px;
-    height: 613px;
+    height: 430px;
     margin: 20px;
     padding: 38px;
     border-radius: 20px;
@@ -95,10 +97,22 @@ text-align: center;
 footer{
     display: flex;
     background-color: #5B9AF2 ;
-    margin-top: 100px;
+
     padding: 100px;
     justify-content: space-evenly;
     width: 1510px;
     height: 325px;
     color: white;
+}
+
+.wrapper{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.n p:hover{
+    color: black;
+}
+a:active{
+    color: red;
 }
